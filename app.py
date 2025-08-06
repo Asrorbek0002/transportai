@@ -30,7 +30,6 @@ if uploaded_file:
 else:
     st.warning("Please upload an image first!")
 
-# Plotting
 
 
 
