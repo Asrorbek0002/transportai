@@ -6,7 +6,7 @@ import  plotly.express as px
 st.title("This model classifies Transports")
 
 # to load modelpip install streamlit
-model = load_learner('transport_model.pkl')
+model = load_learner('transport_model.pt')
 
 # to load file
 uploaded_file = st.file_uploader("Upload an image", type=['jpg', 'png', 'jpeg'])
