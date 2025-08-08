@@ -1,6 +1,9 @@
 import streamlit as st
 from fastai.vision.all import *
 import  plotly.express as px
+import pathlib
+
+pathlib.WindowsPath = pathlib.PosixPath
 
 # to give title
 st.title("This model classifies Transports")
