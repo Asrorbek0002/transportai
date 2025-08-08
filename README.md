@@ -1,2 +1,0 @@
-# transportsDetection
-Transport Classificaton Model
